@@ -1,0 +1,12 @@
+.error{
+    height: 500px;
+    
+}
+.pageerror{
+    position: absolute;
+    width: 200px;
+    color: red;
+    margin-top: 100px ;
+    margin-left: 40%;
+    margin-right: 40%;
+}

@@ -1,0 +1,108 @@
+.castSection {
+    position: relative;
+    margin-bottom: 50px;
+}
+.contentwrappers{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .sectionheading{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 25px;
+  }
+  .listitems{
+    display: flex;
+    gap: 20px;
+    overflow-y: hidden;
+   
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 20px;
+  }@media only screen and (min-width: 768px) {
+    .listitems{
+        margin: 0;
+        padding: 0;
+    }
+}
+.listitem {
+    text-align: center;
+    color: white;
+}
+.profileimg {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) {
+    .profileimg{
+        width: 175px;
+        height: 175px;
+        margin-bottom: 25px;
+    }
+}
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+        display: block;
+    }
+    .names {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .charecter {
+        font-size: 14px;
+        line-height: 20px;
+        opacity: 0.5;
+    }
+    .castSkeleton {
+        display: flex;
+        gap: 20px;
+        overflow-y: hidden;
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 0 20px;
+    }
+    @media only screen and (min-width: 768px) {
+        .castSkeleton{
+            width: 175px;
+            height: 175px;
+            margin-bottom: 25px;
+        }
+    }
+    .circle {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    @media only screen and (min-width: 768px) {
+        .circle{
+            width: 175px;
+            height: 175px;
+            margin-bottom: 25px;
+        }
+    }
+
+    row {
+        width: 100%;
+        height: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row2 {
+        width: 75%;
+        height: 20px;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+

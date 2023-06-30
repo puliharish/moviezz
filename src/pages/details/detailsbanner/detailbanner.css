@@ -1,0 +1,272 @@
+.datailsbanner{
+    width: 100%;
+    background-color: var(--black);
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .datailsbanner{
+        margin-bottom: 0;
+        padding-top: 120px;
+        min-height: 700px;
+    }
+}
+.wrappers{
+      
+}
+/*content*/
+.backdrop-img{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0.2;
+   overflow: hidden;  
+}
+.backdrop-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.opacitylayer{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(
+            180deg,
+            rgba(4, 21, 45, 0) 0%,
+            #04152d 79.17%
+        );
+     position: absolute;
+     bottom: 0;
+     left: 0;   
+}
+.wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+.content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 25px;
+}
+@media only screen and (min-width: 768px) {
+    .content{
+       gap: 50px;
+       flex-direction: row;
+    }
+}
+.lefts{
+    flex-shrink: 0;
+}
+.rights{
+    color: white;
+}
+.poster_img{
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+@media only screen and (min-width: 768px) {
+    .poster_img{
+       max-width: 350px;
+    }
+}
+.rights .title{
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+@media only screen and (min-width: 768px) {
+    .title{
+       font-size: 34px;
+       line-height: 40px;
+      
+    }
+}
+.subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-style: italic;
+    opacity: 0.5;
+}
+@media only screen and (min-width: 768px) {
+    .subtitle{
+        font-size: 20px;
+        line-height: 28px;;
+    }
+}
+.genres {
+    margin-bottom: 25px;
+     flex-flow: row wrap;
+    display: flex;
+    gap: 5px
+}
+.row {
+    display: flex;
+    align-items:center ;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.Circlerate {
+    max-width: 50px;
+    background-color: var(--black2);
+    
+}
+@media only screen and (min-width: 768px) {
+    .Circlerate{
+        max-width: 90px;
+    }
+}
+
+    
+    .CircularProgressbar-text {
+        fill: white;
+    }
+    .playbtn {
+       display: flex;
+       align-items: center;
+       gap: 10px;
+       cursor: pointer; 
+       height: 40px;
+     
+      
+    }
+    .playbtn svg{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+       box-shadow: 2px 2px 2px red;
+    }
+    
+    .trailer  {
+        font-size: 20px;
+         transition: all 0.7s ease-in-out;
+         padding: 10px;
+    }
+
+    .overviewheading{
+        margin-bottom: 25px;
+    }
+    .overtext{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .discription{
+        line-height: 24px; 
+    }
+    @media only screen and (min-width: 768px) {
+        .discription{
+            padding-right: 100px;
+        }
+    }
+    
+    .information{
+        margin-right: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        margin: 10px;
+    }
+    .informationItem{
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    .texts{
+        margin-right: 10px;
+        opacity: 0.5;
+       
+    }
+    .bold{
+        font-weight: 600;
+        opacity: 1;
+    }
+    
+    
+
+
+
+
+
+
+
+
+.detailsbannerSkelton{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 25px;   
+}
+@media only screen and (min-width: 768px) {
+    .detailsbannerSkelton{
+       display: flex;
+       gap: 50px;
+    }
+}
+.detailsbannerSkelton .wrappers {
+    display: flex;
+    gap : 50px;
+}
+.left {
+    flex-shrink: 0;
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    aspect-ratio: 1/1.5px;
+}
+@media only screen and (min-width: 768px) {
+    .left{
+        max-width: 350px;
+    }
+}
+.right{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.right:nth-child(2) {
+    width: 75%;
+    margin-bottom: 50px;
+}
+.right:nth-child(5) {
+    width: 50%;
+    margin-bottom: 50px;
+}
+.skelton {
+    position: relative;
+    overflow: hidden;
+    background-color: #0a2955;
+}
+.skelton:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-100%);
+        background-image: linear-gradient(
+            90deg,
+            rgba(#193763, 0) 0,
+            rgba(#193763, 0.2) 20%,
+            rgba(#193763, 0.5) 60%,
+            rgba(#193763, 0)
+        );
+        animation: shimmer 2s infinite;
+        content: "";
+    }
+
+    @keyframes shimmer {
+        100% {
+            transform: translateX(100%);
+        }
+    
+}
